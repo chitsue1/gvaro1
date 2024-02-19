@@ -11,18 +11,87 @@ body{
 .inner{
     background-color: #D9D9D9;
     height: 100%;
-    width:fit-content;
+    width:1100px;
 margin:0 auto;
-padding-top: 50px;
-padding-bottom: 50px;
+/* padding-top: 50px; */
+/* padding-bottom: 50px; */
 box-sizing: border-box;
+display: flex;
 }
 
 @font-face {
     font-family: ena;
     src: url(../font/alk_life.otf);
 }
+@font-face {
+    font-family: ena2;
+    src: url(../font/bpg_dejavu_sans.ttf);
+}
 .nav{
+    margin-top:100px;
+    margin-left:200px
+    /* box-sizing: border-box; */
+}
+.logo{
+    padding: 50px  50px;
+}
+.avt{
+    margin: 0 50px;
+}
+.qalebi{
+    margin: 100px;
+}
+.ena2{
+    margin: 100px;
     display: flex;
-    margin-left: 100px;
+}
+.books{
+    margin: 0 90px;
+
+}
+.boks{
+    display: inline-block;
+    height: 700px;
+}
+.P{
+ font-family: ena2;
+ font-weight: 700;
+ size: 25px;
+}
+.po{
+    font-weight: 400;
+    size: 25px;
+    line-height: 30px;
+}
+.numb{
+    font-weight: bolder;
+    width: 70px;
+    height: 40px;
+}
+.autors{
+    margin: 0 90px;
+    display: flex;
+}
+.pl{
+   font-family: ena2;
+    font-weight: 700;
+     margin-left: 50px; 
+     line-height: 50px;
+}
+.picture{
+    margin: 0 90px;
+}
+.ending{
+    width: 100%;
+    height: 200px;
+    background-color: #D9D9D9;
+    display: flex;
+}
+.cont{
+    margin: 0 90px;
+    padding-top: 50px ;
+}
+.svg{
+    margin-left: 60%;
+    margin-top: 80px;
 }
